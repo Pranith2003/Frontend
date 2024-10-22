@@ -1,0 +1,44 @@
+/* 1. element, 
+   2. .class, 
+   3. element.class, 
+   4. element, element 
+
+*/
+
+* {
+  margin: 0px;
+  font-family: tie;
+}
+
+.info h1 {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 100px;
+}
+
+.info h3 {
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.info p {
+  text-align: center;
+  font-size: 30px;
+}
+
+.contact-links p {
+    text-align: left;
+    font-size: 20px;
+}
+
+.contact-links ul {
+    display: flex;
+    align-items: center;
+}
+
+.contact-links li {
+    margin: 10px;
+}
