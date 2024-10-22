@@ -5,14 +5,29 @@
 
 */
 
+/* for background: 
+  background-color, 
+  background-image, 
+  background-repeat, 
+  background-attachment, 
+  background-position, 
+  background */
+
 * {
   margin: 0px;
   font-family: tie;
 }
 
+body {
+  background-image: url(/Frontend/assests/img01.gif);
+  background-repeat: no-repeat;
+  background-position: right top center;
+}
+
 .info h1 {
   color: white;
-  background-color: black;
+  background-color: black; /* rgba(, , , ,)*/
+  opacity: 0.2; /* between  0 to 1 */
   text-align: center;
   font-size: 100px;
 }
