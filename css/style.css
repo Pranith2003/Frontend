@@ -9,13 +9,13 @@
   background-color, 
   background-image, 
   background-repeat, 
-  background-attachment, 
+  background-attachment, //scroll or fixed
   background-position, 
   background */
 
 * {
   margin: 0px;
-  font-family: tie;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -26,8 +26,10 @@ body {
 
 .info h1 {
   color: white;
-  background-color: black; /* rgba(, , , ,)*/
-  opacity: 0.2; /* between  0 to 1 */
+  background-color: black;
+  /* rgba(, , , ,)*/
+  /* opacity: 0.2; */
+  /* between  0 to 1 */
   text-align: center;
   font-size: 100px;
 }
@@ -36,7 +38,8 @@ body {
   color: black;
   background-color: white;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .info p {
@@ -45,15 +48,77 @@ body {
 }
 
 .contact-links p {
-    text-align: left;
-    font-size: 20px;
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .contact-links ul {
-    display: flex;
-    align-items: center;
+  display: grid;
+  align-items: center;
 }
 
 .contact-links li {
-    margin: 10px;
+  align-items: center;
+  margin: 10px;
+}
+
+
+/* Borders */
+.info p {
+  /* border: 6px solid red; */
+  margin: 20px 100px 20px 100px;
+}
+
+.contact-links .links {
+  text-align: center;
+}
+
+.projects {
+  justify-items: center;
+}
+
+.projects h4 {
+  text-align: center;
+}
+
+.project-cards {
+  align-items: center;
+  display: flex;
+  margin-left: 5px;
+}
+
+.project-cards .card-1 {
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.project-cards .card-2 {
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.project-cards .card-3 {
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.project-cards .card-4 {
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.project-cards .card-5 {
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  border: 2px solid black;
 }
